@@ -1,0 +1,47 @@
+// Resuable Color Variables
+@base03: #1a1a1a;
+@base02: #2a2a2a;
+@base01: #e74c3c;
+@base00: #657b83;
+@base0: #ecf0f1;
+@base1: #93a1a1;
+@base2: #eee8d5;
+@base3: #fdf6e3;
+@base05: #606060;
+
+@yellow: #f1c40f;
+@orange: #e67e22;
+@red: #e74c3c;
+@magenta: #9b59b6;
+@violet: #6c71c4;
+@blue: #3498db;
+@cyan: #1abc9c;
+@green: #2ecc71;
+
+// General colors
+@syntax-text-color: @base0;
+@syntax-cursor-color: @base0;
+@syntax-selection-color: @base02;
+@syntax-background-color: @base03;
+
+
+// Guide colors
+@syntax-wrap-guide-color: rgba(255, 255, 255, .1);
+@syntax-indent-guide-color: rgba(255, 255, 255, .15);
+@syntax-invisible-character-color: rgba(197, 200, 198, .2);
+
+// For find and replace markers
+@syntax-result-marker-color: @base1;
+@syntax-result-marker-color-selected: @base2;
+
+// Gutter colors
+@syntax-gutter-text-color: @syntax-text-color;
+@syntax-gutter-text-color-selected: @syntax-gutter-text-color;
+@syntax-gutter-background-color: lighten(@syntax-background-color, 3%);
+@syntax-gutter-background-color-selected: @syntax-selection-color;
+
+// For git diff info. i.e. in the gutter
+@syntax-color-renamed: @yellow;
+@syntax-color-added: @green;
+@syntax-color-modified: @orange;
+@syntax-color-removed: @red;
