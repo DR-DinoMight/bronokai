@@ -2,8 +2,9 @@
   "name": "bronokai",
   "theme": "syntax",
   "version": "0.0.0",
+  "private": false,
   "description": "A brogrammer / monokai theme",
-  "repository": "https://github.com/Trickierstinky/brogrammer",
+  "repository": "https://github.com/Trickierstinky/bronokai",
   "license": "MIT",
   "engines": {
     "atom": ">0.39.0"
