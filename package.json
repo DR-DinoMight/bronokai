@@ -4,9 +4,15 @@
   "version": "2.1.0",
   "private": false,
   "description": "A brogrammer / monokai theme",
+  "keywords": [
+    "syntax",
+    "theme",
+    "brogrammer",
+    "monokai"
+  ],
   "repository": "https://github.com/Trickierstinky/bronokai",
   "license": "MIT",
   "engines": {
-    "atom": ">0.39.0"
+    "atom": ">=1.0.0 <2.0.0"
   }
 }
